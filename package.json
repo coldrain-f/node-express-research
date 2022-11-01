@@ -1,0 +1,24 @@
+{
+  "name": "node-express-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldrain-f/node-express-research.git"
+  },
+  "author": "coldrain-f",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coldrain-f/node-express-research/issues"
+  },
+  "homepage": "https://github.com/coldrain-f/node-express-research#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
